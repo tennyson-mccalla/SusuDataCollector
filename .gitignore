@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift
+.swiftpm/
+
+# User-specific
+*.xcuserdatad/
+*.xccheckout
+*.xcworkspace
+!xcshareddata/
+!xcschemes/
+
+# Dependencies
+Carthage/
+Pods/

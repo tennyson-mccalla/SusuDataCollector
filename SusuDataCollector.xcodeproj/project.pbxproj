@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B01B46A2A4C0E7A008C472E /* SusuDataCollectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B01B4692A4C0E7A008C472E /* SusuDataCollectorApp.swift */; };
+		8B01B46C2A4C0E7A008C472E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B01B46B2A4C0E7A008C472E /* ContentView.swift */; };
+		8B01B4712A4C0E7A008C472E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B01B4702A4C0E7A008C472E /* Assets.xcassets */; };
+		8B01B4732A4C0E7A008C472E /* scripts.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8B01B4722A4C0E7A008C472E /* scripts.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B01B4682A4C0E7A008C472E /* SusuDataCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SusuDataCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B01B4692A4C0E7A008C472E /* SusuDataCollectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SusuDataCollectorApp.swift; sourceTree = "<group>"; };
+		8B01B46B2A4C0E7A008C472E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B01B46E2A4C0E7A008C472E /* SusuDataCollector */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SusuDataCollector; path = SusuDataCollector; sourceTree = "<group>"; };
+		8B01B4702A4C0E7A008C472E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B01B4722A4C0E7A008C472E /* scripts.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = scripts.txt; sourceTree = "<group>"; };
+		8B01B4752A4C0E7A008C472E /* Products */ = {isa = PBXFileReference; name = Products; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8B01B4672A4C0E7A008C472E = {
+			isa = PBXGroup;
+			children = (
+				8B01B46E2A4C0E7A008C472E /* SusuDataCollector */,
+				8B01B4752A4C0E7A008C472E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B01B46E2A4C0E7A008C472E /* SusuDataCollector */ = {
+			isa = PBXGroup;
+			children = (
+				8B01B4692A4C0E7A008C472E /* SusuDataCollectorApp.swift */,
+				8B01B46B2A4C0E7A008C472E /* ContentView.swift */,
+				8B01B4702A4C0E7A008C472E /* Assets.xcassets */,
+				8B01B4722A4C0E7A008C472E /* scripts.txt */,
+			);
+			path = SusuDataCollector;
+			sourceTree = "<group>";
+		};
+		8B01B4752A4C0E7A008C472E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B01B4682A4C0E7A008C472E /* SusuDataCollector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B01B46F2A4C0E7A008C472E /* SusuDataCollector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B01B4782A4C0E7A008C472E /* Build configuration list for PBXNativeTarget "SusuDataCollector" */;
+			buildPhases = (
+				8B01B4762A4C0E7A008C472E /* Sources */,
+				8B01B4772A4C0E7A008C472E /* Frameworks */,
+				8B01B4742A4C0E7A008C472E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SusuDataCollector;
+			productName = SusuDataCollector;
+			productReference = 8B01B4682A4C0E7A008C472E /* SusuDataCollector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B01B4662A4C0E7A008C472E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = tendev;
+				TargetAttributes = {
+					8B01B46F2A4C0E7A008C472E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 8B01B4792A4C0E7A008C472E /* Build configuration list for PBXProject "SusuDataCollector" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B01B4672A4C0E7A008C472E;
+			productRefGroup = 8B01B4752A4C0E7A008C472E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B01B46F2A4C0E7A008C472E /* SusuDataCollector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B01B4742A4C0E7A008C472E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B01B4732A4C0E7A008C472E /* scripts.txt in Resources */,
+				8B01B4712A4C0E7A008C472E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B01B4762A4C0E7A008C472E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B01B46A2A4C0E7A008C472E /* SusuDataCollectorApp.swift in Sources */,
+				8B01B46C2A4C0E7A008C472E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B01B4772A4C0E7A008C472E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B01B47A2A4C0E7A008C472E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SusuDataCollector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = tendev.SusuDataCollector;
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B01B47B2A4C0E7A008C472E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SusuDataCollector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = tendev.SusuDataCollector;
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B01B47C2A4C0E7A008C472E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B01B47D2A4C0E7A008C472E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B01B4782A4C0E7A008C472E /* Build configuration list for PBXNativeTarget "SusuDataCollector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B01B47A2A4C0E7A008C472E /* Debug */,
+				8B01B47B2A4C0E7A008C472E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B01B4792A4C0E7A008C472E /* Build configuration list for PBXProject "SusuDataCollector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B01B47C2A4C0E7A008C472E /* Debug */,
+				8B01B47D2A4C0E7A008C472E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B01B4662A4C0E7A008C472E /* Project object */;
+}
